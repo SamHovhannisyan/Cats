@@ -1,0 +1,64 @@
+.mainDiv {
+    width: 80%;
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.mainDiv ul li {
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.mainDiv ul li:hover {
+    color: rgb(179, 12, 12);
+    transition: 0.2s;
+}
+
+.divImages {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5rem;
+}
+
+.moreBtn {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.moreBtn button {
+    border: none;
+    padding: 0.8rem 5rem;
+    color: aliceblue;
+    font-size: 22px;
+    border-radius: 10px;
+    background-color: rgb(54, 54, 153);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.moreBtn button:hover {
+    border: none;
+    padding: 0.8rem 5rem;
+    color: aliceblue;
+    font-size: 22px;
+    border-radius: 10px;
+    background-color: rgb(54, 54, 153);
+    cursor: pointer;
+    transition: 0.8s;
+    opacity: 0.5;
+}
